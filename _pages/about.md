@@ -3,7 +3,7 @@
 permalink: /about/
 title: "About"
 author_profile: true
---------------------
+---
 
 I am **Aysar Yahya**, a Ph.D. student in **Communication and Information with a concentration in Advertising at the University of Tennessee, Knoxville**, and a Ph.D. candidate in **Public Relations and Advertising at Anadolu University, Türkiye**.
 
