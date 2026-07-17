@@ -90,7 +90,7 @@ publication_category:
     title: "Working Papers"    
   book_chapters:
     title: "Book Chapters"
-   conference_presentations:
+  conference_presentations:
     title: "Conference Presentations"
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
