@@ -330,54 +330,48 @@
    ========================== */
 @media screen and (max-width: 768px) {
 
-  .sidebar {
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block;
+    width: 100%;
     text-align: center;
   }
 
   .author__avatar {
-    display: block;
-    width: 100%;
-    text-align: center;
     margin-bottom: 15px;
   }
 
   .author__avatar img {
+    width: 180px;
     max-width: 180px;
     margin: 0 auto;
+    display: block;
   }
 
   .author__content {
-    display: block;
-    width: 100%;
     padding: 0;
-    text-align: center;
   }
 
   .author__name {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
   }
 
   .author__bio {
-    margin-bottom: 15px;
+    margin: 10px auto 15px;
+    max-width: 320px;
     line-height: 1.5;
   }
 
   .author__urls-wrapper {
-    display: block;
-    width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
   }
 
+  /* لا نظهر الروابط إلا بعد الضغط على الزر */
   .author__urls {
-    position: static;
-    display: block;
-    margin-top: 15px;
+    display: none;
   }
-
-  .author__urls li {
-    display: inline-block;
-    margin: 4px 8px;
+}
   }
 }
