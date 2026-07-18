@@ -4,8 +4,9 @@
 
 .page__footer {
   @include clearfix;
-  background-color: var(--global-footer-bg-color);
+  background-color: transparent;
   color: var(--global-text-color-light);
+  opacity: 0.6;
 
   float: left;
   margin-left: 0;
